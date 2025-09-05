@@ -1,0 +1,23 @@
+
+
+body {
+  background-color: #121212; /* Dark background outside the panel */
+  margin: 0;
+  padding: 0;
+}
+
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  height: 100vh; /* Full height of the viewport */
+  position: relative; /* Ensure it stays above the animated background */
+  z-index: 2; /* Make sure it is above the background */
+  color: white; /* Change text color for better visibility */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 20px; /* Add padding for aesthetics */
+}
+
+

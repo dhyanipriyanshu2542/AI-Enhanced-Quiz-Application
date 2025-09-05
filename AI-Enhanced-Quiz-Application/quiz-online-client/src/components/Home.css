@@ -1,0 +1,14 @@
+.home-page {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Dark Blue Gradient */
+    color: #ffffff; /* White text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+.home-heading {
+    color: #ffba08; /* Orange-Gold */
+}
+
+.home-text {
+    color: #f0f0f0; /* Soft white */
+}

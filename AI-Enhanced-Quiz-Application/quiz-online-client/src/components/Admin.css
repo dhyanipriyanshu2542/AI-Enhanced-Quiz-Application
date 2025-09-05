@@ -1,0 +1,61 @@
+/* Background Gradient for Admin Page */
+.admin-page {
+    background: linear-gradient(135deg, #1e1e1e, #3c3c3c); /* Darker Charcoal Gray Gradient */
+    color: #f0f0f0; /* Softer white for better contrast */
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Heading Style */
+.admin-heading {
+    color: #ff6347; /* Tomato Red for better contrast */
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+/* Text Style */
+.admin-text {
+    color: #d3d3d3; /* Softer Light Gray */
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Link Styling */
+.page-heading a {
+    color: #ffa500; /* Bright Orange */
+    text-decoration: none;
+    padding: 0.7rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+/* Hover Effect */
+.page-heading a:hover {
+    color: #ffba08; /* Golden Yellow */
+    background-color: rgba(255, 255, 255, 0.1); /* Soft highlight */
+    transform: translateY(-2px);
+}
+
+/* Horizontal Line Styling */
+hr {
+    border-color: #555; /* Medium Gray */
+    margin-bottom: 1.5rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .admin-heading {
+        font-size: 1.8rem;
+    }
+
+    .page-heading a {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
